@@ -565,11 +565,11 @@ vendors:
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity: https://cdn.staticfile.org/velocity/1.5.0/velocity.min.js
+  velocity: https://cdn.staticfile.org/velocity/1.2.1/velocity.min.js
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity_ui: https://cdn.staticfile.org/velocity/1.5.0/velocity.ui.min.js
+  velocity_ui: https://cdn.staticfile.org/velocity/1.2.1/velocity.ui.min.js
 
   # Internal version: 0.7.9
   # See: https://faisalman.github.io/ua-parser-js/
