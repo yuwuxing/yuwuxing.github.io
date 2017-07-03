@@ -1,0 +1,21 @@
+language: node_js
+sudo: required
+node_js:
+  - 6.10.3
+cache:
+  directories:
+    - node_modules
+before_script:
+  - git clone --branch master https://github.com/jixiaod/jixiaod.github.io.git public
+script:
+  - npm run build
+after_success:
+  - cd public
+  - git config user.name "zhaoyu"
+  - git config user.email "yuwuxing@gmail.com"
+  - git add --all .
+  - git commit -m "travis ci auto build"
+  - git push https://$Personal_access_tokens@github.com/jixiaod/jixiaod.github.io.git master
+branches:
+  only:
+    - hexo
