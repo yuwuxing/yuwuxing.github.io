@@ -1,0 +1,870 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="hexo," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="CMMI概述CMMI3 需要的17个过程域二级 管理级 需求管理 项目策划 项目监控 供应商合约管理 配置管理 过程及产品质量保证 度量分析">
+<meta name="keywords" content="hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的第一篇Hexo博客">
+<meta property="og:url" content="http://zhaoyu.net/2017/06/30/my-first-hexo-blog/index.html">
+<meta property="og:site_name" content="赵宇的后花园">
+<meta property="og:description" content="CMMI概述CMMI3 需要的17个过程域二级 管理级 需求管理 项目策划 项目监控 供应商合约管理 配置管理 过程及产品质量保证 度量分析">
+<meta property="og:updated_time" content="2017-07-03T07:51:45.013Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我的第一篇Hexo博客">
+<meta name="twitter:description" content="CMMI概述CMMI3 需要的17个过程域二级 管理级 需求管理 项目策划 项目监控 供应商合约管理 配置管理 过程及产品质量保证 度量分析">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://zhaoyu.net/2017/06/30/my-first-hexo-blog/"/>
+
+
+
+
+
+  <title>我的第一篇Hexo博客 | 赵宇的后花园</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">赵宇的后花园</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">一个大龄互联网男青年</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://zhaoyu.net/2017/06/30/my-first-hexo-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="赵宇">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="赵宇的后花园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">我的第一篇Hexo博客</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-30T16:07:48+00:00">
+                2017-06-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="CMMI概述"><a href="#CMMI概述" class="headerlink" title="CMMI概述"></a>CMMI概述</h1><h2 id="CMMI3-需要的17个过程域"><a href="#CMMI3-需要的17个过程域" class="headerlink" title="CMMI3 需要的17个过程域"></a>CMMI3 需要的17个过程域</h2><h3 id="二级-管理级"><a href="#二级-管理级" class="headerlink" title="二级 管理级"></a>二级 管理级</h3><ul>
+<li>需求管理</li>
+<li>项目策划</li>
+<li>项目监控</li>
+<li>供应商合约管理</li>
+<li>配置管理</li>
+<li>过程及产品质量保证</li>
+<li>度量分析</li>
+</ul>
+<a id="more"></a>
+<h3 id="三级-定义级"><a href="#三级-定义级" class="headerlink" title="三级 定义级"></a>三级 定义级</h3><ul>
+<li>需求开发</li>
+<li>技术实现</li>
+<li>产品集成</li>
+<li>验证</li>
+<li>确认</li>
+<li>组织过程焦点</li>
+<li>组织过程定义</li>
+<li>组织级培训</li>
+<li>集成项目管理</li>
+<li>风险管理</li>
+<li>决策分析</li>
+</ul>
+<h2 id="CMMI3种模型"><a href="#CMMI3种模型" class="headerlink" title="CMMI3种模型"></a>CMMI3种模型</h2><ul>
+<li>研发模型</li>
+<li>采购模型</li>
+<li>服务模型</li>
+</ul>
+<h2 id="EPD组-工程过程组"><a href="#EPD组-工程过程组" class="headerlink" title="EPD组 工程过程组"></a>EPD组 工程过程组</h2><h3 id="组织过程焦点"><a href="#组织过程焦点" class="headerlink" title="组织过程焦点"></a>组织过程焦点</h3><ol>
+<li><p>确定过程改进机会</p>
+<ul>
+<li>建立组织过程需要</li>
+<li>评估组织过程</li>
+<li>识别资质过程改进</li>
+</ul>
+</li>
+<li><p>策划和实施过程措施</p>
+<ul>
+<li>建立过程实施计划</li>
+<li>执行过程实施计划</li>
+</ul>
+</li>
+<li><p>推广组织过程资产并汇总经验</p>
+<ul>
+<li>推广组织过程资产</li>
+<li>推广标准过程</li>
+<li>监督实施</li>
+<li>汇整经验到组织过程资产</li>
+</ul>
+</li>
+</ol>
+<h3 id="组织过程定义"><a href="#组织过程定义" class="headerlink" title="组织过程定义"></a>组织过程定义</h3><ol>
+<li><p>建立资质过程资产</p>
+<ul>
+<li>建立标准过程</li>
+<li><p>建立生命周期模型描述</p>
+<ul>
+<li>瀑布型、迭代型</li>
+</ul>
+</li>
+<li><p>建立裁剪准则和指南</p>
+</li>
+<li>建立组织度量库</li>
+<li>建立组织过程资产库</li>
+<li>监理工作环境标准</li>
+<li>建立团队规则和指南</li>
+</ul>
+</li>
+</ol>
+<h3 id="组织培训"><a href="#组织培训" class="headerlink" title="组织培训"></a>组织培训</h3><h2 id="项目监控（2级）"><a href="#项目监控（2级）" class="headerlink" title="项目监控（2级）"></a>项目监控（2级）</h2><h3 id="按照计划监督项目"><a href="#按照计划监督项目" class="headerlink" title="按照计划监督项目"></a>按照计划监督项目</h3><ul>
+<li>监督项目策划参数</li>
+<li>监督承诺</li>
+<li>监督项目风险</li>
+<li>监督数据管理</li>
+<li>监督干系人参与</li>
+<li><p>进行进展评审</p>
+<blockquote>
+<p>根据项目长度周期性评审</p>
+</blockquote>
+</li>
+<li><p>进行里程碑评审</p>
+<blockquote>
+<p>项目重要节点评审</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="管理纠正措施直到结案"><a href="#管理纠正措施直到结案" class="headerlink" title="管理纠正措施直到结案"></a>管理纠正措施直到结案</h3><ul>
+<li>分析问题</li>
+<li>采集纠正措施</li>
+<li>管理纠正措施</li>
+</ul>
+<h2 id="集成项目管理（3级）"><a href="#集成项目管理（3级）" class="headerlink" title="集成项目管理（3级）"></a>集成项目管理（3级）</h2><h3 id="使用项目的已定义过程"><a href="#使用项目的已定义过程" class="headerlink" title="使用项目的已定义过程"></a>使用项目的已定义过程</h3><ol>
+<li>简历项目的已定义过程</li>
+<li>使用组织过程资产策划项目获得</li>
+<li>建立项目工作环境</li>
+<li><p>集成计划</p>
+<blockquote>
+<p>将分散的计划合并成一个计划</p>
+</blockquote>
+</li>
+<li><p>使用集成计划管理项目</p>
+</li>
+<li>建立团队</li>
+<li><p>贡献到组织过程资产</p>
+<blockquote>
+<p>产生的内容提交到组织过程资产</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="和想干关系人协调与合作"><a href="#和想干关系人协调与合作" class="headerlink" title="和想干关系人协调与合作"></a>和想干关系人协调与合作</h3><ol>
+<li>管理干系人的参与</li>
+<li><p>管理相互依赖</p>
+<blockquote>
+<p>关键路径，一旦确定如果延期会导致项目延期，此处为跟相关干系人相关的关键依赖项的管理</p>
+</blockquote>
+</li>
+<li><p>解决协调问题</p>
+</li>
+</ol>
+<h2 id="风险管理（3级）"><a href="#风险管理（3级）" class="headerlink" title="风险管理（3级）"></a>风险管理（3级）</h2><p>使用风险跟踪表</p>
+<h3 id="风险管理准备"><a href="#风险管理准备" class="headerlink" title="风险管理准备"></a>风险管理准备</h3><ol>
+<li>确定风险来源和分类</li>
+<li>定义风险参数</li>
+<li>建立风险管理策略</li>
+</ol>
+<h3 id="识别和分析风险"><a href="#识别和分析风险" class="headerlink" title="识别和分析风险"></a>识别和分析风险</h3><ol>
+<li>识别风险</li>
+<li>评价、分类及排序风险</li>
+</ol>
+<h3 id="缓解风险"><a href="#缓解风险" class="headerlink" title="缓解风险"></a>缓解风险</h3><ol>
+<li>开发风险缓解计划</li>
+<li>实施风险环节计划</li>
+</ol>
+<h2 id="配置管理（2级）"><a href="#配置管理（2级）" class="headerlink" title="配置管理（2级）"></a>配置管理（2级）</h2><h3 id="建立基线"><a href="#建立基线" class="headerlink" title="建立基线"></a>建立基线</h3><ol>
+<li><p>识别配置项</p>
+<blockquote>
+<p>确定哪些产出物是要纳入到配置管理系统</p>
+</blockquote>
+</li>
+<li><p>建立配置管理系统</p>
+<blockquote>
+<p>使用版本管理软件（SVN等）来管理代码和所有产出物</p>
+</blockquote>
+</li>
+<li><p>创建和发布基线</p>
+</li>
+</ol>
+<h3 id="跟踪和控制变更"><a href="#跟踪和控制变更" class="headerlink" title="跟踪和控制变更"></a>跟踪和控制变更</h3><p>变更是在基线的基础上进行</p>
+<ol>
+<li><p>跟踪变更请求</p>
+<blockquote>
+<p>项目经理把控变更需求，大的变更提交到CCB（项目变更委员会）</p>
+</blockquote>
+</li>
+<li><p>控制配置项</p>
+</li>
+</ol>
+<h3 id="建立完整性"><a href="#建立完整性" class="headerlink" title="建立完整性"></a>建立完整性</h3><ol>
+<li>建立配置管理记录</li>
+<li>执行配置审计</li>
+</ol>
+<h2 id="质量保证（2级）"><a href="#质量保证（2级）" class="headerlink" title="质量保证（2级）"></a>质量保证（2级）</h2><h3 id="客观评价过程和工作产品"><a href="#客观评价过程和工作产品" class="headerlink" title="客观评价过程和工作产品"></a>客观评价过程和工作产品</h3><ol>
+<li>客观评价过程</li>
+<li>客观评价工作产品和服务</li>
+</ol>
+<h3 id="提供客观的洞察力"><a href="#提供客观的洞察力" class="headerlink" title="提供客观的洞察力"></a>提供客观的洞察力</h3><ol>
+<li>沟通并解决不符合问题</li>
+<li>建立记录</li>
+</ol>
+<h2 id="度量和分析（2级）"><a href="#度量和分析（2级）" class="headerlink" title="度量和分析（2级）"></a>度量和分析（2级）</h2><h3 id="使度量和分析活动一致化"><a href="#使度量和分析活动一致化" class="headerlink" title="使度量和分析活动一致化"></a>使度量和分析活动一致化</h3><ol>
+<li>建立度量目标</li>
+<li><p>指定度量</p>
+<blockquote>
+<p>工作量、规模、成本等等</p>
+</blockquote>
+</li>
+<li><p>指定数据收集和存储规程</p>
+</li>
+<li>指定分析规程</li>
+</ol>
+<h3 id="提供度量结果"><a href="#提供度量结果" class="headerlink" title="提供度量结果"></a>提供度量结果</h3><ol>
+<li>获得度量数据</li>
+<li>分析度量数据</li>
+<li>存储数据和结果</li>
+<li>沟通结果</li>
+</ol>
+<h2 id="决策分析（3级）"><a href="#决策分析（3级）" class="headerlink" title="决策分析（3级）"></a>决策分析（3级）</h2><h3 id="评价备选方案"><a href="#评价备选方案" class="headerlink" title="评价备选方案"></a>评价备选方案</h3><ol>
+<li>建立决策分析指南</li>
+<li>建立评价准则</li>
+<li>识别备选解决方案</li>
+<li>选择评价方法</li>
+<li>评价备选方案</li>
+<li>选择解决方案</li>
+</ol>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/03/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="赵宇" />
+          <p class="site-author-name" itemprop="name">赵宇</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CMMI概述"><span class="nav-number">1.</span> <span class="nav-text">CMMI概述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#CMMI3-需要的17个过程域"><span class="nav-number">1.1.</span> <span class="nav-text">CMMI3 需要的17个过程域</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#二级-管理级"><span class="nav-number">1.1.1.</span> <span class="nav-text">二级 管理级</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三级-定义级"><span class="nav-number">1.1.2.</span> <span class="nav-text">三级 定义级</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CMMI3种模型"><span class="nav-number">1.2.</span> <span class="nav-text">CMMI3种模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#EPD组-工程过程组"><span class="nav-number">1.3.</span> <span class="nav-text">EPD组 工程过程组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#组织过程焦点"><span class="nav-number">1.3.1.</span> <span class="nav-text">组织过程焦点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#组织过程定义"><span class="nav-number">1.3.2.</span> <span class="nav-text">组织过程定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#组织培训"><span class="nav-number">1.3.3.</span> <span class="nav-text">组织培训</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目监控（2级）"><span class="nav-number">1.4.</span> <span class="nav-text">项目监控（2级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#按照计划监督项目"><span class="nav-number">1.4.1.</span> <span class="nav-text">按照计划监督项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#管理纠正措施直到结案"><span class="nav-number">1.4.2.</span> <span class="nav-text">管理纠正措施直到结案</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#集成项目管理（3级）"><span class="nav-number">1.5.</span> <span class="nav-text">集成项目管理（3级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用项目的已定义过程"><span class="nav-number">1.5.1.</span> <span class="nav-text">使用项目的已定义过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#和想干关系人协调与合作"><span class="nav-number">1.5.2.</span> <span class="nav-text">和想干关系人协调与合作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#风险管理（3级）"><span class="nav-number">1.6.</span> <span class="nav-text">风险管理（3级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#风险管理准备"><span class="nav-number">1.6.1.</span> <span class="nav-text">风险管理准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#识别和分析风险"><span class="nav-number">1.6.2.</span> <span class="nav-text">识别和分析风险</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#缓解风险"><span class="nav-number">1.6.3.</span> <span class="nav-text">缓解风险</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置管理（2级）"><span class="nav-number">1.7.</span> <span class="nav-text">配置管理（2级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#建立基线"><span class="nav-number">1.7.1.</span> <span class="nav-text">建立基线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#跟踪和控制变更"><span class="nav-number">1.7.2.</span> <span class="nav-text">跟踪和控制变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#建立完整性"><span class="nav-number">1.7.3.</span> <span class="nav-text">建立完整性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#质量保证（2级）"><span class="nav-number">1.8.</span> <span class="nav-text">质量保证（2级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#客观评价过程和工作产品"><span class="nav-number">1.8.1.</span> <span class="nav-text">客观评价过程和工作产品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提供客观的洞察力"><span class="nav-number">1.8.2.</span> <span class="nav-text">提供客观的洞察力</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#度量和分析（2级）"><span class="nav-number">1.9.</span> <span class="nav-text">度量和分析（2级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#使度量和分析活动一致化"><span class="nav-number">1.9.1.</span> <span class="nav-text">使度量和分析活动一致化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提供度量结果"><span class="nav-number">1.9.2.</span> <span class="nav-text">提供度量结果</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#决策分析（3级）"><span class="nav-number">1.10.</span> <span class="nav-text">决策分析（3级）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#评价备选方案"><span class="nav-number">1.10.1.</span> <span class="nav-text">评价备选方案</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">赵宇</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
