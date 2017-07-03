@@ -6,7 +6,7 @@ cache:
   directories:
     - node_modules
 before_script:
-  - git clone --branch master https://github.com/jixiaod/jixiaod.github.io.git public
+  - git clone --branch master https://github.com/yuwuxing/yuwuxing.github.io.git public
 script:
   - npm run build
 after_success:
